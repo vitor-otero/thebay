@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E07C10F290FE279006D2B05 /* Webview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E07C10E290FE279006D2B05 /* Webview.swift */; };
 		4ECE9D9C290C895A0006EFD3 /* TheBayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECE9D9B290C895A0006EFD3 /* TheBayApp.swift */; };
 		4ECE9D9E290C895A0006EFD3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECE9D9D290C895A0006EFD3 /* ContentView.swift */; };
 		4ECE9DA0290C895A0006EFD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ECE9D9F290C895A0006EFD3 /* Assets.xcassets */; };
@@ -14,6 +15,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E07C10E290FE279006D2B05 /* Webview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webview.swift; sourceTree = "<group>"; };
+		4E07C110290FF337006D2B05 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4ECE9D98290C895A0006EFD3 /* TheBay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheBay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ECE9D9B290C895A0006EFD3 /* TheBayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheBayApp.swift; sourceTree = "<group>"; };
 		4ECE9D9D290C895A0006EFD3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,6 +38,7 @@
 		4ECE9D8F290C895A0006EFD3 = {
 			isa = PBXGroup;
 			children = (
+				4E07C110290FF337006D2B05 /* README.md */,
 				4ECE9D9A290C895A0006EFD3 /* TheBay */,
 				4ECE9D99290C895A0006EFD3 /* Products */,
 			);
@@ -55,6 +59,7 @@
 				4ECE9D9D290C895A0006EFD3 /* ContentView.swift */,
 				4ECE9D9F290C895A0006EFD3 /* Assets.xcassets */,
 				4ECE9DA1290C895A0006EFD3 /* Preview Content */,
+				4E07C10E290FE279006D2B05 /* Webview.swift */,
 			);
 			path = TheBay;
 			sourceTree = "<group>";
@@ -137,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E07C10F290FE279006D2B05 /* Webview.swift in Sources */,
 				4ECE9D9E290C895A0006EFD3 /* ContentView.swift in Sources */,
 				4ECE9D9C290C895A0006EFD3 /* TheBayApp.swift in Sources */,
 			);
